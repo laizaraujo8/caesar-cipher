@@ -1,3 +1,15 @@
+Usuário
+Um grupo de mães de um colégio querem conversar sobre as atividades de seus filhos na escola.
+Como eles são adolescentes frequentemente pegam o celular das mães.
+Para que eles não consigam entender as conversas, uma das mães que estuda na  <Labaratória>  criou uma aplicação para criptografar e descriptografar essas conversas.
+
+Diagrama de Blocos
+<img src="diagramadebloco.jpg">
+
+
+
+
+
 # Cifra de César
 
 ## Prefácio
