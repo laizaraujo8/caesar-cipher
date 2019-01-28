@@ -3,8 +3,14 @@ Um grupo de mães de um colégio querem conversar sobre as atividades de seus fi
 Como eles são adolescentes frequentemente pegam o celular das mães.
 Para que eles não consigam entender as conversas, uma das mães que estuda na  <Labaratória>  criou uma aplicação para criptografar e descriptografar essas conversas.
 
+Para isso será criado uma aplicação onde há um espaço para digitar a mensagem, escolher a chave para
+criptografar e um botão para o resultado. Após o texto griptografado um outro espaço de texto será criado para colar o texto criptografado e um botão que retorna o resultado do texto descriptografado.
+
 Diagrama de Blocos
 <img src="diagramadebloco.jpg">
+
+Layout
+<img src="layoutcipher.jpg">
 
 
 
