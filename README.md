@@ -7,10 +7,10 @@ Para isso será criado uma aplicação onde há um espaço para digitar a mensag
 criptografar e um botão para o resultado. Após o texto griptografado um outro espaço de texto será criado para colar o texto criptografado e um botão que retorna o resultado do texto descriptografado.
 
 Diagrama de Blocos
-<img src="diagramadebloco.jpg">
+![Diagrama de Bloco](diagramadebloco.jpg)
 
 Layout
-<img src="layoutcipher.jpg">
+![Imagem do Layout](layoutcipher.jpg)
 
 
 
