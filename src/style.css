@@ -1,14 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
 
 
-
 body{
-  font-size: 13px;
+  font-size: 10px;
   font-family: 'Work Sans', sans-serif;
   color: rgb(42, 141, 122);
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
-  background-color: #f8f6f0;
+  background-color: #d3dfdf;
 }
 
 
@@ -29,10 +28,14 @@ h1 {
  
 }
 
-textarea {
- width: 500px;
-  
+label {
+  font-size:20px;
+ }
+
+input {
+ height:30px;
+ padding:15px;
+ width: 50%;
+	
 }
 
-label {
- font-size: 20px;
