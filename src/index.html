@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="script.js"></script>
-    <h1>Criptografia de Texto</h1>
-    <h2> Escreva seu texto para criptografar.</h2>
-    <textarea>
-    </textarea>
-    <h3>Chave Número</h3>
-    <textarea>
-    </textarea> <br>
-    <button onclick="botaocrip()">Criptografar</button>
 
-    <h2> Cole o texto criptografado aqui.</h2>
-    <textarea>
-    </textarea>
-     <br>
-    <button onclick="botaocrip()">Descriptografar</button>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <script src="cipher.js">
+  </script>
+  <h1>Criptografia de Texto</h1>
+  <br><br><br>
+
+  <label>chave</label>
+  <input type="text" id="inserirChave"><br><br>
+
+
+  <label>Escreva seu texto para criptografar</label>
+  <input type="text" id="inserirTexto">
+
+
+  <br><br>
+  <button name="crip" onclick="criptografar()">Criptografar </button> <br><br>
+
+
+  <label>Cole seu texto para descriptografar</label>
+  <input type="text" id="colarTextoCrip"></textarea>
+
+  <br><br>
+
+  <button name="descrip" onclick="descriptografar()">Descriptografar </button> <br><br>
+
+</body>
+
 </html>
