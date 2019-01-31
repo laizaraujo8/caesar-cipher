@@ -65,8 +65,9 @@ function decode(texto, chave) {
       if (code >= 97 && code <= 122) {
         codPrinLetra = 97;
       }
-      novoCodigo = ((code - codPrinLetra - chave) % 26) + codPrinLetra;
-    }
+      novoCodigo = (((code - codPrinLetra) - chave % 26) + 26) % 26 + codPrinLetra;
+      
+    } 
 
 
 

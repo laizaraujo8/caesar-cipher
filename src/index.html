@@ -2,37 +2,39 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<title>Caesar Cipher</title>
-	<link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-	<script src="cipher.js"></script>
-	<script src="tests.js"></script>
-	<h1>Criptografia de Texto</h1>
-	<br><br><br>
+  <div id="root">
+    <h1>Criptografia de Texto</h1>
+    <br>
 
-      <label>chave nº</label><br><br>
-      <input type="text" autocomplete="off" id="inserirChave"><br><br>
-    
+    <label>chave nº</label><br><br>
+    <input type="text" autocomplete="off" id="inserirChave"><br><br>
+
     <br><br>
     <label>Coloque seu texto para criptografar.</label>
     <br><br>
     <input type="text" autocomplete="off" id="inserirTexto">
 
-      
+
     <br><br>
     <button name="crip" onclick="criptografar()">Criptografar </button> <br><br>
 
     <br><br>
     <label>Coloque seu texto para descriptografar.</label>
     <br><br>
-    <input type="text" autocomplete="off" id="colarTextoCrip"></textarea>  
+    <input type="text" autocomplete="off" id="colarTextoCrip"></textarea>
 
     <br><br>
 
-    <button name= "descrip" onclick="descriptografar()">Descriptografar </button> <br><br>
-   
-  </body>
+    <button name="descrip" onclick="descriptografar()">Descriptografar </button> <br><br>
+  </div>
+  <script src="cipher.js"></script>
+  <script src="tests.js"></script>
+</body>
+
 </html>
