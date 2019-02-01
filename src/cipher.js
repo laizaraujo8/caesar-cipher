@@ -25,17 +25,17 @@ function encode(texto, chave) {
 
     if (code >= 65 && code <= 90) {
       codPrinLetra = 65;
+      novoCodigo = (((code - codPrinLetra) + chave % 26) + 26) % 26 + codPrinLetra;
 
     } else if (code >= 97 && code <= 122) {
       codPrinLetra = 97;
+      novoCodigo = (((code - codPrinLetra) + chave % 26) + 26) % 26 + codPrinLetra;
 
     } else if (!(code >= 65 && code <= 90 || code >= 97 && code <= 122)) {
+      novoCodigo = code;
 
-      strEncoded += String.fromCharCode(code);
-      return texto;
     }
 
-    novoCodigo = (((code - codPrinLetra) + chave % 26) + 26) % 26 + codPrinLetra;
 
     strEncoded += String.fromCharCode(novoCodigo);
   }
@@ -55,16 +55,16 @@ function decode(texto, chave) {
 
     if (code >= 65 && code <= 90) {
       codPrinLetra = 65;
+      novoCodigo = (((code - codPrinLetra) - chave % 26) + 26) % 26 + codPrinLetra;
 
     } else if (code >= 97 && code <= 122) {
       codPrinLetra = 97;
+      novoCodigo = (((code - codPrinLetra) - chave % 26) + 26) % 26 + codPrinLetra;
 
     } else if (!(code >= 65 && code <= 90 || code >= 97 && code <= 122)) {
-      strDecoded += String.fromCharCode(code);
-      return texto;
+      novoCodigo = code;
     }
 
-    novoCodigo = (((code - codPrinLetra) - chave % 26) + 26) % 26 + codPrinLetra;
 
     strDecoded += String.fromCharCode(novoCodigo);
   }

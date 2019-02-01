@@ -6,7 +6,10 @@ Como eles são adolescentes frequentemente pegam o celular das mães.
 Para que eles não consigam entender as conversas, uma das mães que estuda na  <Labaratória>  criou uma aplicação para criptografar e descriptografar essas conversas.
 
 # Descrição da Aplicação
-Para isso será criado uma aplicação onde há um espaço para digitar a mensagem, escolher a chave para criptografar e um botão para o resultado. Após o texto griptografado um outro espaço de texto será criado para colar o texto criptografado e um botão que retorna o resultado do texto descriptografado.
+Para isso será criado uma aplicação onde há um espaço para digitar a chave de deslocamento.
+Em seguida digitar o texto a ser criptografado e um botão para o resultado.
+Após o texto criptografado o usuário deve apagar a mensagem original caso queira usar a função descriptografar.
+Para isso basta clicar no botão "descriptografar" que retornará o resultado do texto original.
 
 # Diagrama de Blocos
 
